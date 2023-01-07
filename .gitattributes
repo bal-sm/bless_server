@@ -1,0 +1,7 @@
+# Set Git to handle files with its default behaviour
+* text=auto
+
+# Force Unix-style line endings to fix tests under Windows
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
