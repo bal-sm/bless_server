@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # env read
 env = environ.Env()
-env.read_env(str(BASE_DIR / ".env"))
+env.read_env(BASE_DIR / ".env")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
@@ -33,7 +33,7 @@ SECRET_KEY = env(
 DEBUG = env.bool("DJANGO_DEBUG", True)
 
 ALLOWED_HOSTS = env.list(
-    "DJANGO_ALLOWED_HOSTS",
+    list("DJANGO_ALLOWED_HOSTS"),
     default=["*"],
 )
 
