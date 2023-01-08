@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}
+  {{ title }}
+{% endblock title %}
+
+{% block cardstyle %}
+  <div class="container">
+    <div class="row align-items-center" style="height: 100vh; color: white;">
+      <div class="col-8">
+        {% block content %}
+          <h1 style="font-weight: 900;">{{ title | upper }}
+          </h1>
+          <p class="fst-italic">Work In Progress</p>
+          {% if user.is_authenticated %}
+            <div class="d-flex justify-content-start">
+              <a class="btn btn-lg mt-5" href="{% url 'logout' %}" role="button">Logout</a>
+              <a class="btn btn-lg mt-5 ms-3" href="" role="button">Selanjutnya</a>
+            </div>
+          {% else %}
+            <div class="d-flex justify-content-start">
+              <a class="btn btn-lg mt-5" href="{% url 'register' %}" role="button">Register</a>
+              <a class="btn btn-lg mt-5 ms-3" href="{% url 'login' %}" role="button">Login</a>
+            </div>
+          {% endif %}
+        {% endblock content %}
+      </div>
+    </div>
+  </div>
+{% endblock cardstyle %}
+
+{% block background %}
+{% endblock background %}

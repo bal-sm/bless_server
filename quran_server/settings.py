@@ -40,7 +40,9 @@ ALLOWED_HOSTS = env.list(
 
 # Application definition
 
-FIRST_PARTY_APPS = []
+FIRST_PARTY_APPS = [
+    "duser",
+]
 
 THIRD_PARTY_APPS = [
     "rest_framework",
@@ -74,7 +76,9 @@ ROOT_URLCONF = "quran_server.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [
+            BASE_DIR / "templates",
+        ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -101,13 +105,18 @@ DATABASES = {
 }
 
 
+# Custom user model
+
+AUTH_USER_MODEL = "duser.User"
+
+
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation."
-        + "UserAttributeSimilarityValidator",
+        "UserAttributeSimilarityValidator",
     },
     {
         "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
@@ -137,6 +146,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = "static/"
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
