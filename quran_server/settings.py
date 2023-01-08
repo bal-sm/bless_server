@@ -40,7 +40,9 @@ ALLOWED_HOSTS = env.list(
 
 # Application definition
 
-FIRST_PARTY_APPS = []
+FIRST_PARTY_APPS = [
+    "duser",
+]
 
 THIRD_PARTY_APPS = [
     "rest_framework",
