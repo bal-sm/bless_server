@@ -119,7 +119,7 @@ class Quran(models.Model):
         SuratNumber113 = 113, _("Al-Falaq (5)")
         SuratNumber114 = 114, _("An-Nās (6)")
 
-    surat = models.IntegerField(choices=SuratSurat.choices)
+    surat = models.PositiveIntegerField(choices=SuratSurat.choices)
     ayat = models.IntegerField()
     text = models.TextField()
 
