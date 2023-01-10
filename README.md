@@ -31,7 +31,7 @@ See these video (either):
 1. Rename `quran_server.code-workspace.dist` to `quran_server.code-workspace`
 2. Open the `quran_server.code-workspace`
 3. Install
-    These extensions:
+    these extensions:
     
     [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     
