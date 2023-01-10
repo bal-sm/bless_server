@@ -13,9 +13,12 @@ See this video:
 [Download](https://www.python.org/downloads/)
 
 ### Run the server
-```bash
-python manage.py runserver
-```
+1. Clone this repository
+2. Open the folder in terminal
+3. Run this command
+    ```bash
+    python manage.py runserver
+    ```
 
 ### Develop a Django project
 See these video (either):
