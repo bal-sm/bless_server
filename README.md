@@ -47,8 +47,8 @@ See these video (either):
 
 ## Please
 ### For commit message 
-An example:
-Created `AUTHORS`
+A written example:
+Created \`AUTHORS\`
     
 Sorry, if I also did an inconsistencies :(
 #### Use verb 3
