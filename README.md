@@ -43,3 +43,6 @@ Sorry, if I also did an inconsistencies :(
 "Created"
 #### Please add "`" charater to the start and the end of an object 
 "\`AUTHORS\`"
+
+### Dear Authors
+Don't forget to add yourself in `AUTHORS`, if you contributed to this project (and haven't done that yet)
