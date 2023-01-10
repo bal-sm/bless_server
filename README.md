@@ -45,4 +45,4 @@ Sorry, if I also did an inconsistencies :(
 "\`AUTHORS\`"
 
 ### Dear Authors
-Don't forget to add yourself in `AUTHORS`, if you contributed to this project (and haven't done that yet)
+Don't forget to add yourself in `AUTHORS` file, if you contributed to this project (and haven't done that yet)
