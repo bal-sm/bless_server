@@ -31,14 +31,14 @@ See these video (either):
 1. Rename `quran_server.code-workspace.dist` to `quran_server.code-workspace`
 2. Open the `quran_server.code-workspace`
 3. Install
-These extensions:
-
-[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-
-[Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
-
-[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (Prettier doesn't work well for Django HTML yet, so it only be used for css only)
-
+    These extensions:
+    
+    [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+    
+    [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
+    
+    [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (Prettier doesn't work well for Django HTML yet, so it only be used for css only)
+    
 ## Source
 [Qur'an Kemenag](https://quran.kemenag.go.id/)
 
