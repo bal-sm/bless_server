@@ -32,3 +32,14 @@ See these video (either):
 
 ## Join the discussion in:
 [Django Forum](https://forum.djangoproject.com/t/lets-contribute-to-my-quran-server-project/18086)
+
+## Please
+### For commit message 
+    An example:
+    Created `AUTHORS`
+    
+Sorry, if I also did an inconsistencies :(
+#### Use verb 3
+"Created"
+#### Please add "`" charater to the start and the end of an object 
+"`AUTHORS`"
