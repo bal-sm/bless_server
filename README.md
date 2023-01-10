@@ -35,11 +35,11 @@ See these video (either):
 
 ## Please
 ### For commit message 
-    An example:
-    Created `AUTHORS`
+An example:
+Created `AUTHORS`
     
 Sorry, if I also did an inconsistencies :(
 #### Use verb 3
 "Created"
 #### Please add "`" charater to the start and the end of an object 
-"`AUTHORS`"
+\`AUTHORS\`
