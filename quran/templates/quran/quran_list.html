@@ -8,7 +8,7 @@
           <h3 class="mb-5">Qur'an List</h3>
           {% for per in root %}
             <div class="d-block">
-              <a style="text-decoration: none;" href="">
+              <a style="text-decoration: none;" href="{% url 'ayat_view' per.id %}">
                 <p class="fw-bold border border-2 border-start-0 border-top-0 border-end-0 mb-2 pb-2 ms-2">
                   {{ per.surat }}:{{ per.ayat }}
                 </p>
