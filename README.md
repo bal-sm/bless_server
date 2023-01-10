@@ -12,6 +12,11 @@ See this video:
 
 [Download](https://www.python.org/downloads/)
 
+### Run the server
+```bash
+python manage.py runserver
+```
+
 ### Develop a Django project
 See these video (either):
 
