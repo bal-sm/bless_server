@@ -8,6 +8,10 @@ See this video:
 
 [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) or ask [CallMeKevin](callmekevinbusiness@gmail.com)
 
+### Install Python
+
+[Download](https://www.python.org/downloads/)
+
 ### Develop a Django project
 See these video (either):
 
