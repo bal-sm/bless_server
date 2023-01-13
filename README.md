@@ -50,7 +50,7 @@ See these video (either):
 A written example:
 Created \`AUTHORS\`
     
-Sorry, if I also did an inconsistencies :(
+Sorry, if I also did many inconsistencies :(
 #### Use verb 3
 "Created"
 #### Please add "`" charater to the start and the end of an object 
