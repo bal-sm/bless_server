@@ -48,6 +48,7 @@ FIRST_PARTY_APPS = [
 THIRD_PARTY_APPS = [
     "rest_framework",
     "treebeard",
+    "django_htmx",
 ]
 
 DJANGO_APPS = [
