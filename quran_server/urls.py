@@ -22,5 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", lambda req: redirect("/home/")),
     path("home/", include("duser.urls")),
-    path("quran/", include("quran.urls")),
+    path("quran/", include("dquran.urls")),
 ]
