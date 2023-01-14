@@ -36,6 +36,9 @@ Server API used for Bless app (and other apps) / Standalone Qur'an (WORK IN PROG
 A written example:
 Created \`AUTHORS\`
 
+So, it will be seen like this:
+Created `AUTHORS`
+
 Sorry, if I also did many inconsistencies :(
 #### Use verb 3
 "Created"
