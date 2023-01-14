@@ -42,7 +42,7 @@ ALLOWED_HOSTS = env.list(
 
 FIRST_PARTY_APPS = [
     "duser",
-    "quran",
+    "dquran",
 ]
 
 THIRD_PARTY_APPS = [
