@@ -15,7 +15,11 @@ def quran_list(request):
 
 def ayat_view(request, id):
     ayat = get_object_or_404(Quran, id=id)
-    ayat_translation = Translation.objects.get(quran=ayat)
+    try:
+        ayat_translation = Translation.objects.get(quran=ayat)
+    except Translation.DoesNotExist:
+        ayat_translation = None
+
     context = {
         "ayat": ayat,
         "ayat_translation": ayat_translation,
