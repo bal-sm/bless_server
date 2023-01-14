@@ -20,25 +20,18 @@ See this video:
     python manage.py runserver
     ```
 
-### Develop a Django project
-See these video (either):
-
-[Python Django Web Framework - Full Course for Beginners](https://www.youtube.com/watch?v=F5mRW0jo-U4)
-
-[Django For Everybody - Full Python University Course](https://www.youtube.com/watch?v=o0XbHvKxw7Y)
-
 ### Develop using Visual Studio Code
 1. Rename `quran_server.code-workspace.dist` to `quran_server.code-workspace`
 2. Open the `quran_server.code-workspace`
 3. Install
     these extensions:
-    
+
     [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-    
+
     [Black](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
-    
+
     [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (Prettier doesn't work well for Django HTML yet, so it only be used for css only)
-    
+
 ## Source
 [Qur'an Kemenag](https://quran.kemenag.go.id/)
 
@@ -46,15 +39,21 @@ See these video (either):
 [Django Forum](https://forum.djangoproject.com/t/lets-contribute-to-my-quran-server-project/18086)
 
 ## Please
-### For commit message 
+### For commit message
 A written example:
 Created \`AUTHORS\`
-    
+
 Sorry, if I also did many inconsistencies :(
 #### Use verb 3
 "Created"
-#### Please add "`" charater to the start and the end of an object 
+#### Please add "`" charater to the start and the end of an object
 "\`AUTHORS\`"
+
+#### See these tutorials
+
+[Python Django Web Framework - Full Course for Beginners](https://www.youtube.com/watch?v=F5mRW0jo-U4)
+
+[Django For Everybody - Full Python University Course](https://www.youtube.com/watch?v=o0XbHvKxw7Y)
 
 ### Dear Authors
 Don't forget to add yourself in `AUTHORS` file, if you contributed to this project (and haven't done that yet)
