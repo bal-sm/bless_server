@@ -67,14 +67,14 @@ class Migration(migrations.Migration):
                 (
                     "quran",
                     models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="quran.quran"
+                        on_delete=django.db.models.deletion.CASCADE, to="dquran.quran"
                     ),
                 ),
                 (
                     "translation_version",
                     models.ForeignKey(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="quran.translationversion",
+                        to="dquran.translationversion",
                     ),
                 ),
             ],

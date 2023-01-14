@@ -6,7 +6,7 @@ from django.db import models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ("quran", "0002_alter_quran_surat"),
+        ("dquran", "0002_alter_quran_surat"),
     ]
 
     operations = [
