@@ -1,3 +1,4 @@
+from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 
 from .models import Quran
@@ -13,7 +14,7 @@ def quran_list(request):
 
 
 def ayat_view(request, id):
-    ayat = Quran.objects.get(id=id)
+    ayat = get_object_or_404(Quran, id=id)
     ayat_translation = Translation.objects.get(quran=ayat)
     context = {
         "ayat": ayat,
