@@ -29,7 +29,7 @@ Server API used for Bless app (and other apps) / Standalone Qur'an (WORK IN PROG
     [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (Prettier doesn't work well for Django HTML yet, so it only be used for css only)
 
 ## Source
-[Qur'an Kemenag](https://quran.kemenag.go.id/)
+For An-Nas: [Qur'an Kemenag](https://quran.kemenag.go.id/)
 
 ## Please
 ### For commit message
