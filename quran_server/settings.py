@@ -49,6 +49,8 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "treebeard",
     "django_htmx",
+    "django_extensions",
+    "widget_tweaks",
 ]
 
 DJANGO_APPS = [
