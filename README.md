@@ -32,6 +32,12 @@ Run this command on the root folder of the project:
 poetry install --with=dev
 ```
 
+### Activate the virtual environment
+Run this command on the root folder of the project:
+```bash
+poetry shell
+```
+
 ### Run the server
 Run this command on the root folder of the project:
 ```bash
