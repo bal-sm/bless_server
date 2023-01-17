@@ -8,16 +8,38 @@ Server API used for [Bless](https://github.com/bal-sm/bless) app (and other apps
 
 [Download](https://www.python.org/downloads/)
 
+### Install pipx (Optional)
+Run this command:
+```bash
+python3 -m pip install --user pipx
+```
+
+### Install Poetry
+If you use pipx, you can just run this command:
+```bash
+python3 -m pipx install poetry
+```
+
+Or:
+[Installation Docs](https://python-poetry.org/docs/#installation)
+
+### Have a copy of this repository
+You can use Git (and GitHub) tutorial linked below for conscise beginner-friendly tutorials
+
+### Install dependencies with Poetry
+Run this command on the root folder of the project:
+```bash
+python3 -m poetry install --with=dev
+```
+
 ### Run the server
-1. Clone this repository
-2. Open the folder in terminal
-3. Run this command:
-    ```bash
-    python3 manage.py runserver
-    ```
+Run this command on the root folder of the project:
+```bash
+python3 manage.py runserver
+```
 
 ### Develop using Visual Studio Code
-1. Rename `quran_server.code-workspace.dist` to `quran_server.code-workspace`
+1. Rename `quran_server.code-workspace.dist` located on the root folder of the project to `quran_server.code-workspace`
 2. Open the `quran_server.code-workspace`
 3. Install
     these extensions:
