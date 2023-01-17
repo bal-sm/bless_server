@@ -11,7 +11,7 @@ Server API used for Bless app (and other apps) / Standalone Qur'an (WORK IN PROG
 ### Run the server
 1. Clone this repository
 2. Open the folder in terminal
-3. Run this command
+3. Run this command:
     ```bash
     python3 manage.py runserver
     ```
