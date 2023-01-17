@@ -13,7 +13,7 @@ Server API used for Bless app (and other apps) / Standalone Qur'an (WORK IN PROG
 2. Open the folder in terminal
 3. Run this command
     ```bash
-    python manage.py runserver
+    python3 manage.py runserver
     ```
 
 ### Develop using Visual Studio Code
