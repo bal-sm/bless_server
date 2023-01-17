@@ -14,6 +14,12 @@ Run this command:
 python3 -m pip install --user pipx
 ```
 
+### Ensure path (after installing pipx)
+Don't forget to run this command after installing pipx:
+```bash
+python3 -m pipx ensurepath
+```
+
 ### Install Poetry
 If you use pipx, you can just run this command:
 ```bash
