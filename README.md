@@ -29,7 +29,7 @@ You can use Git (and GitHub) tutorial linked below for conscise beginner-friendl
 ### Install dependencies with Poetry
 Run this command on the root folder of the project:
 ```bash
-python3 -m poetry install --with=dev
+poetry install --with=dev
 ```
 
 ### Run the server
