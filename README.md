@@ -47,7 +47,9 @@ Sorry, if I also did many inconsistencies :(
 
 #### See these tutorials
 
-[Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) or ask
+[GIT & GITHUB by Sandhika Galih (Indonesian)](https://youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf)
+
+[Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
 
 [Python Django Web Framework - Full Course for Beginners](https://www.youtube.com/watch?v=F5mRW0jo-U4)
 
