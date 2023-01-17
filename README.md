@@ -23,7 +23,7 @@ python3 -m pipx ensurepath
 ### Install Poetry
 If you use pipx, you can just run this command:
 ```bash
-python3 -m pipx install poetry
+pipx install poetry
 ```
 
 Or:
