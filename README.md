@@ -1,6 +1,6 @@
 بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
 # quran_server
-Server API used for Bless app (and other apps) / Standalone Qur'an (WORK IN PROGRESS)
+Server API used for [Bless](https://github.com/bal-sm/bless) app (and other apps) / Standalone Qur'an (WORK IN PROGRESS)
 
 ## How-to
 
