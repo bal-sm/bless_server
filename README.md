@@ -14,10 +14,16 @@ Run this command:
 python3 -m pip install --user pipx
 ```
 
+### Ensure path (after installing pipx)
+Don't forget to run this command after installing pipx:
+```bash
+python3 -m pipx ensurepath
+```
+
 ### Install Poetry
 If you use pipx, you can just run this command:
 ```bash
-python3 -m pipx install poetry
+pipx install poetry
 ```
 
 Or:
@@ -29,7 +35,13 @@ You can use Git (and GitHub) tutorial linked below for conscise beginner-friendl
 ### Install dependencies with Poetry
 Run this command on the root folder of the project:
 ```bash
-python3 -m poetry install --with=dev
+poetry install --with=dev
+```
+
+### Activate the virtual environment
+Run this command on the root folder of the project:
+```bash
+poetry shell
 ```
 
 ### Run the server
