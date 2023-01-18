@@ -44,6 +44,12 @@ Run this command on the root folder of the project:
 poetry shell
 ```
 
+### Install pre-commit git hook scripts (very important)
+Run this command on the root folder of the project:
+```bash
+pre-commit install
+```
+
 ### Run the server
 Run this command on the root folder of the project:
 ```bash
