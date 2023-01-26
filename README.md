@@ -87,6 +87,8 @@ Sorry, if I also did many inconsistencies :(
 
 #### See these tutorials
 
+[Django Docs](https://docs.djangoproject.com/en/4.1/)
+
 [GIT & GITHUB by Sandhika Galih (Indonesian)](https://youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf)
 
 [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
@@ -94,6 +96,8 @@ Sorry, if I also did many inconsistencies :(
 [Python Django Web Framework - Full Course for Beginners](https://www.youtube.com/watch?v=F5mRW0jo-U4)
 
 [Django For Everybody - Full Python University Course](https://www.youtube.com/watch?v=o0XbHvKxw7Y)
+
+[Python Backend Web Development Course (with Django)](https://www.youtube.com/watch?v=jBzwzrDvZ18)
 
 ### Dear Authors
 Don't forget to add yourself in `AUTHORS` file, if you contributed to this project (and haven't done that yet)
