@@ -87,6 +87,8 @@ Sorry, if I also did many inconsistencies :(
 
 #### See these tutorials
 
+[Django Docs](https://docs.djangoproject.com/en/4.1/)
+
 [GIT & GITHUB by Sandhika Galih (Indonesian)](https://youtube.com/playlist?list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf)
 
 [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
