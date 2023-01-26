@@ -95,6 +95,8 @@ Sorry, if I also did many inconsistencies :(
 
 [Django For Everybody - Full Python University Course](https://www.youtube.com/watch?v=o0XbHvKxw7Y)
 
+[Python Backend Web Development Course (with Django)](https://www.youtube.com/watch?v=jBzwzrDvZ18)
+
 ### Dear Authors
 Don't forget to add yourself in `AUTHORS` file, if you contributed to this project (and haven't done that yet)
 
