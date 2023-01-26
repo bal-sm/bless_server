@@ -18,13 +18,15 @@ from django.shortcuts import redirect
 from django.urls import include
 from django.urls import path
 
-from duser.urls import router
+from dquran.urls import router as dquran_router
+from duser.urls import router as duser_router
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", lambda req: redirect("/home/")),
     path("home/", include("duser.urls")),
     path("quran/", include("dquran.urls")),
-    path("", include(router.urls)),
+    path("", include(duser_router.urls)),
+    path("", include(dquran_router.urls)),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
 ]
