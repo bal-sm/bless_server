@@ -1,8 +1,10 @@
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render
+from rest_framework import viewsets
 
 from .models import Quran
 from .models import Translation
+from .serializers import QuranSerializer
 
 
 def quran_list(request):
@@ -25,3 +27,12 @@ def ayat_view(request, id):
         "ayat_translation": ayat_translation,
     }
     return render(request, "quran/ayat_view.html", context)
+
+
+class QuranViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    API endpoint that allows Qur'an to be viewed.
+    """
+
+    queryset = Quran.objects.all()
+    serializer_class = QuranSerializer
