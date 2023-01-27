@@ -126,6 +126,9 @@ class Quran(models.Model):
     def __str__(self):
         return f"{self.surat}:{self.ayat}"
 
+    def get_iqlab(self):
+        return f'<div style="color: blue;">{self.text}</div>'
+
     class Meta:
         ordering = ["surat", "ayat"]
         verbose_name_plural = "Qur'an"
