@@ -50,6 +50,12 @@ Run this command on the root folder of the project:
 pre-commit install
 ```
 
+### Run the migrate command
+Run this command on the root folder of the project:
+```bash
+python3 manage.py migrate
+```
+
 ### Run the server
 Run this command on the root folder of the project:
 ```bash
