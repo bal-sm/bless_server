@@ -56,6 +56,10 @@ Run this command on the root folder of the project:
 python3 manage.py migrate
 ```
 
+### Load fixture(s)
+To populate the database with some data.
+[Load An-Nas fixture](/dquran/fixtures)
+
 ### Run the server
 Run this command on the root folder of the project:
 ```bash
