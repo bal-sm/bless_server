@@ -1,5 +1,5 @@
 بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
-# quran_server
+# bless_server
 Server API used for [Bless](https://github.com/bal-sm/bless) app (and other apps) / Standalone Qur'an (WORK IN PROGRESS)
 
 ## How-to
@@ -67,8 +67,8 @@ python3 manage.py runserver
 ```
 
 ### Develop using Visual Studio Code
-1. Rename `quran_server.code-workspace.dist` located on the root folder of the project to `quran_server.code-workspace`
-2. Open the `quran_server.code-workspace`
+1. Rename `bless_server.code-workspace.dist` located on the root folder of the project to `bless_server.code-workspace`
+2. Open the `bless_server.code-workspace`
 3. Install
     these extensions:
 
