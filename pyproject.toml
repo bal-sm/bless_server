@@ -5,7 +5,16 @@ description = "Server API used for Bless app"
 authors = ["Iqbal Syifa Mahmuda <bal.mahmuda@gmail.com>"]
 license = "GPL-3.0-only"
 readme = "README.md"
-packages = [{include = "quran_server"}]
+packages = [
+    { include = "quran_server" },
+    { include = "manage.py" },
+    { include = "dquran" },
+    { include = "duser" },
+]
+include = [
+    { path = "static" },
+    { path = "templates" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
