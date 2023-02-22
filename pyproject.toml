@@ -11,6 +11,10 @@ packages = [
     { include = "dquran" },
     { include = "duser" },
 ]
+include = [
+    { path = "static" },
+    { path = "templates" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
