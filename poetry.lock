@@ -366,14 +366,14 @@ Django = ">=3.2"
 
 [[package]]
 name = "django-modeltranslation"
-version = "0.18.7"
+version = "0.18.9"
 description = "Translates Django models using a registration approach."
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "django-modeltranslation-0.18.7.tar.gz", hash = "sha256:916349b978f2e724749d8581a48e0ea6c4b8c09ef4bbcbf0333eef3901e126f0"},
-    {file = "django_modeltranslation-0.18.7-py3-none-any.whl", hash = "sha256:fe6f3e77a2813a2057629637f4858870540529093d2145f13e59dae628bd69cc"},
+    {file = "django-modeltranslation-0.18.9.tar.gz", hash = "sha256:d92bcd004e48946ae3824289ee76d36faa670f6e3da4a0412cdaeb4fc2526627"},
+    {file = "django_modeltranslation-0.18.9-py3-none-any.whl", hash = "sha256:f79ec5548053ffa2153b7b5ca646f59da1bf9e4c2c62085e21ead662a9c2faf8"},
 ]
 
 [package.dependencies]
@@ -438,17 +438,6 @@ files = [
 [package.extras]
 docs = ["furo (>=2022.12.7)", "sphinx (>=5.3)", "sphinx-autodoc-typehints (>=1.19.5)"]
 testing = ["covdefaults (>=2.2.2)", "coverage (>=7.0.1)", "pytest (>=7.2)", "pytest-cov (>=4)", "pytest-timeout (>=2.1)"]
-
-[[package]]
-name = "future"
-version = "0.18.3"
-description = "Clean single-source support for Python 3 and 2"
-category = "main"
-optional = false
-python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
-files = [
-    {file = "future-0.18.3.tar.gz", hash = "sha256:34a17436ed1e96697a86f9de3d15a3b0be01d8bc8de9c1dffd59fb8234ed5307"},
-]
 
 [[package]]
 name = "html5lib"
@@ -1296,4 +1285,4 @@ svglib = ">=1.2.1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f6240bae2bcd5b9d7166a85a26c973c75737b8b3c9de1d7af4bc33edba2ecdc5"
+content-hash = "9382966f2e085798cf5d5f31515518a1f466a233f223ebfd53c31dec7dc9d6bd"
