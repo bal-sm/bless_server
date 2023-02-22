@@ -2,22 +2,18 @@
 
 [[package]]
 name = "arabic-reshaper"
-version = "2.1.4"
-description = "Reconstruct Arabic sentences to be used in applications that don't support Arabic"
+version = "3.0.0"
+description = "Reconstruct Arabic sentences to be used in applications that do not support Arabic"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "arabic_reshaper-2.1.4-py2-none-any.whl", hash = "sha256:23465907417191521da568bd1ae5064eca801c52f88329ef5fdcfbac9c64888b"},
-    {file = "arabic_reshaper-2.1.4-py3-none-any.whl", hash = "sha256:a06297fa436f56bdade4f7751710dbea5645b404debdca5017999e5233daf34a"},
-    {file = "arabic_reshaper-2.1.4.tar.gz", hash = "sha256:e84b3b0ad8eae395641c94d3010b53bfed2c2b1ab80f25eb8cdc01019ddf6426"},
+    {file = "arabic_reshaper-3.0.0-py3-none-any.whl", hash = "sha256:3f71d5034bb694204a239a6f1ebcf323ac3c5b059de02259235e2016a1a5e2dc"},
+    {file = "arabic_reshaper-3.0.0.tar.gz", hash = "sha256:ffcd13ba5ec007db71c072f5b23f420da92ac7f268512065d49e790e62237099"},
 ]
 
-[package.dependencies]
-future = "*"
-
 [package.extras]
-with-fonttools = ["fonttools (>=3.0,<4.0)", "fonttools (>=4.0)"]
+with-fonttools = ["fonttools (>=4.0)"]
 
 [[package]]
 name = "asgiref"
@@ -865,18 +861,23 @@ uritools = ">=3.0.1"
 async-http = ["aiohttp (>=3.8.0,<3.9.0)"]
 
 [[package]]
-name = "pypdf3"
-version = "1.0.6"
-description = "Pure Python PDF toolkit"
+name = "pypdf"
+version = "3.3.0"
+description = "A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.6"
 files = [
-    {file = "PyPDF3-1.0.6.tar.gz", hash = "sha256:c946f3273419e37258e35e72273f49904ab15723d87a761c1115ef99799f8c5f"},
+    {file = "pypdf-3.3.0-py3-none-any.whl", hash = "sha256:4239eff2e3d5e5d90b88590e5924cb34e7743ec1418717749a16cc9032c37f77"},
+    {file = "pypdf-3.3.0.tar.gz", hash = "sha256:37a272f6dd7d9a0eba29ae201d07d3060f8cb81d301e21f42d99e62d4c4e6e4b"},
 ]
 
-[package.dependencies]
-tqdm = "*"
+[package.extras]
+crypto = ["PyCryptodome"]
+dev = ["black", "flit", "pip-tools", "pre-commit (<2.18.0)", "pytest-cov", "wheel"]
+docs = ["myst_parser", "sphinx", "sphinx_rtd_theme"]
+full = ["Pillow", "PyCryptodome"]
+image = ["Pillow"]
 
 [[package]]
 name = "python-bidi"
@@ -1165,27 +1166,6 @@ files = [
 ]
 
 [[package]]
-name = "tqdm"
-version = "4.64.1"
-description = "Fast, Extensible Progress Meter"
-category = "main"
-optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
-files = [
-    {file = "tqdm-4.64.1-py2.py3-none-any.whl", hash = "sha256:6fee160d6ffcd1b1c68c65f14c829c22832bc401726335ce92c52d395944a6a1"},
-    {file = "tqdm-4.64.1.tar.gz", hash = "sha256:5f4f682a004951c1b450bc753c710e9280c5746ce6ffedee253ddbcbf54cf1e4"},
-]
-
-[package.dependencies]
-colorama = {version = "*", markers = "platform_system == \"Windows\""}
-
-[package.extras]
-dev = ["py-make (>=0.1.0)", "twine", "wheel"]
-notebook = ["ipywidgets (>=6)"]
-slack = ["slack-sdk"]
-telegram = ["requests"]
-
-[[package]]
 name = "typing-extensions"
 version = "4.4.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
@@ -1293,23 +1273,22 @@ files = [
 
 [[package]]
 name = "xhtml2pdf"
-version = "0.2.8"
+version = "0.2.9"
 description = "PDF generator using HTML and CSS"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "xhtml2pdf-0.2.8-py3-none-any.whl", hash = "sha256:330bf335d1bc436eb0fe7efc64d82aa09c7a728df6a57f07a8b062e478c7aa36"},
-    {file = "xhtml2pdf-0.2.8.tar.gz", hash = "sha256:d8e1db3d8acc9ff8071718b89b8967abb561a15d74d2cbd1606539c6d17660c4"},
+    {file = "xhtml2pdf-0.2.9-py3-none-any.whl", hash = "sha256:fca2bea8f72cda174ed0ea34f2772c5473a1f90dca9eff5d09b86d2b42c327fa"},
 ]
 
 [package.dependencies]
-arabic-reshaper = ">=2.1.0"
+arabic-reshaper = ">=3.0.0"
 html5lib = ">=1.0.1"
 Pillow = ">=8.1.1"
 pyHanko = ">=0.12.1"
 pyhanko-certvalidator = ">=0.19.5"
-PyPDF3 = ">=1.0.5"
+pypdf = ">=3.1.0"
 python-bidi = ">=0.4.2"
 reportlab = ">=3.5.53"
 svglib = ">=1.2.1"
@@ -1317,4 +1296,4 @@ svglib = ">=1.2.1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "20de2e3c23c1155b2bb2aaf231dde3053b8081e7577ed4ac6fe6e646684b8f48"
+content-hash = "f6240bae2bcd5b9d7166a85a26c973c75737b8b3c9de1d7af4bc33edba2ecdc5"
