@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "quran-server"
-version = "0.3.0"
+name = "bless-server"
+version = "0.4.0"
 description = "Server API used for Bless app"
 authors = ["Iqbal Syifa Mahmuda <bal.mahmuda@gmail.com>"]
 license = "GPL-3.0-only"
 readme = "README.md"
 packages = [
-    { include = "quran_server" },
+    { include = "bless_server" },
     { include = "manage.py" },
     { include = "dquran" },
     { include = "duser" },
