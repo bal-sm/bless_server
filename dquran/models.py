@@ -49,9 +49,6 @@ class AbstractAyat(models.Model):
     )
     text = models.TextField()
 
-    def __str__(self):
-        return f"{self.surat}:{self.ayat}"
-
     class Meta:
         abstract = True
 
