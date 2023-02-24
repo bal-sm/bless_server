@@ -10,10 +10,6 @@ class AbstractSurat(models.Model):
     name = models.CharField(
         max_length=1000,
     )
-    ayats = models.ManyToManyField(
-        "Ayat",
-        through="Ayatship",
-    )
 
     class Meta:
         abstract = True
@@ -54,10 +50,6 @@ class AbstractAyat(models.Model):
 
 
 class Surat(AbstractSurat):
-    pass
-
-
-class Ayatship(AbstractAyatship):
     pass
 
 
