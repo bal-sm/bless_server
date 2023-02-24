@@ -20,6 +20,7 @@ class AbstractSurat(models.Model):
 
     class Meta:
         abstract = True
+        ordering = ("number",)
 
 
 class AbstractAyatship(models.Model):
@@ -44,6 +45,7 @@ class AbstractAyatship(models.Model):
 
     class Meta:
         abstract = True
+        ordering = ("surat", "number")
 
 
 class AbstractAyat(models.Model):
