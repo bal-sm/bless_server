@@ -11,6 +11,7 @@ packages = [
     { include = "dquran" },
     { include = "duser" },
 ]
+exclude = ["dquran/fixtures"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
