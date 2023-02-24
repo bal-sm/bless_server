@@ -15,6 +15,9 @@ class AbstractSurat(models.Model):
         through="Ayatship",
     )
 
+    def __str__(bal):
+        return f"{bal.number}. {bal.name}"
+
     class Meta:
         abstract = True
 
@@ -36,6 +39,9 @@ class AbstractAyatship(models.Model):
     )
     number = models.PositiveIntegerField()
 
+    def __str__(bal):
+        return f"{bal.surat}:{bal.number}, {bal.ayat.text}"
+
     class Meta:
         abstract = True
 
@@ -48,6 +54,9 @@ class AbstractAyat(models.Model):
         verbose_name="ID",
     )
     text = models.TextField()
+
+    def __str__(bal):
+        return f"{bal.text}"
 
     class Meta:
         abstract = True
