@@ -32,6 +32,9 @@ class AbstractAyatship(models.Model):
     )
     number = models.PositiveIntegerField()
 
+    class Meta:
+        abstract = True
+
 
 class AbstractAyat(models.Model):
     id = models.UUIDField(
