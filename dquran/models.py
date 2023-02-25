@@ -64,7 +64,16 @@ class AbstractAyat(models.Model):
         abstract = True
 
 
-class Surat(AbstractSurat):
+class AbstractQuranSurat(AbstractSurat):
+    opened_with_basmallah = models.BooleanField(
+        default=True,
+    )
+
+    class Meta(AbstractSurat.Meta):
+        abstract = True
+
+
+class Surat(AbstractQuranSurat):
     pass
 
 
