@@ -2,6 +2,7 @@
   pk: 114
   fields:
     name: An-Nās
+    opened_with_basmallah: true
 - model: dquran.ayatship
   pk: 096dc234-685b-454e-b844-e61d7c121a71
   fields:
