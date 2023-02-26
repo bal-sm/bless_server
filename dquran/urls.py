@@ -3,7 +3,9 @@ from rest_framework import routers
 
 from . import views
 
+
 router = routers.DefaultRouter()
+router.register(r"quran/api", views.AyatshipViewSet)
 
 urlpatterns = [
     path("", views.surat_list, name="surat_list"),

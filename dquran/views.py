@@ -1,9 +1,11 @@
 from django.shortcuts import get_list_or_404
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render
+from rest_framework import viewsets
 
 from .models import Ayatship
 from .models import Surat
+from .serializers import AyatshipSerializer
 
 
 def surat_list(request):
@@ -33,3 +35,12 @@ def ayat_view(request, surat_number, ayat_number):
         "ayatship": ayatship,
     }
     return render(request, "quran/ayat_view.html", context)
+
+
+class AyatshipViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    API endpoint that allows Qur'an to be viewed.
+    """
+
+    queryset = Ayatship.objects.all()
+    serializer_class = AyatshipSerializer
