@@ -46,6 +46,7 @@ class AbstractAyatship(models.Model):
     class Meta:
         abstract = True
         ordering = ("surat", "number")
+        unique_together = (("surat", "number"),)
 
 
 class AbstractAyat(models.Model):
