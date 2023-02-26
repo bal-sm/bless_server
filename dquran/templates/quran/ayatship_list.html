@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block cardstyle %}
+  <div class="container">
+    <div class="row align-items-center justify-content-center my-5">
+      <div class="col-10 bg-white shadow-lg p-5 big-card h-auto">
+        {% block content %}
+          <h3 class="mb-5">Ayat List</h3>
+          {% for per in root %}
+            <div class="d-block">
+              <a style="text-decoration: none;" href="{% url 'ayat_view' per.surat.number per.number %}">
+                <p class="fw-bold border border-2 border-start-0 border-top-0 border-end-0 mb-2 pb-2 ms-2">
+                  {{ per.surat.number }}:{{ per.number }}
+                </p>
+              </a>
+            </div>
+          {% endfor %}
+          <div class="d-flex justify-content-end mt-5">
+            <a class="btn" href="{% url 'surat_list' %}">Kembali</a>
+          </div>
+        {% endblock content %}
+      </div>
+    </div>
+  </div>
+{% endblock cardstyle %}

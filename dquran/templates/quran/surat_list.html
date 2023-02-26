@@ -5,12 +5,12 @@
     <div class="row align-items-center justify-content-center my-5">
       <div class="col-10 bg-white shadow-lg p-5 big-card h-auto">
         {% block content %}
-          <h3 class="mb-5">Qur'an List</h3>
+          <h3 class="mb-5">Surat List</h3>
           {% for per in root %}
             <div class="d-block">
-              <a style="text-decoration: none;" href="{% url 'ayat_view' per.id %}">
+              <a style="text-decoration: none;" href="{% url 'ayatship_list' per.number %}">
                 <p class="fw-bold border border-2 border-start-0 border-top-0 border-end-0 mb-2 pb-2 ms-2">
-                  {{ per.surat }}:{{ per.ayat }}
+                  {{ per.number }}. {{ per.name }}
                 </p>
               </a>
             </div>
