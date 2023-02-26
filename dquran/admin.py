@@ -5,9 +5,13 @@ from .models import Ayatship
 from .models import Surat
 
 
+class AyatshipInline(admin.StackedInline):
+    model = Ayatship
+
+
 @admin.register(Surat)
 class SuratAdmin(admin.ModelAdmin):
-    pass
+    inlines = (AyatshipInline,)
 
 
 @admin.register(Ayatship)
