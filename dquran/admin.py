@@ -1,19 +1,24 @@
 from django.contrib import admin
 
-from .models import Quran
-from .models import Translation
-from .models import TranslationVersion
+from .models import Ayat
+from .models import Ayatship
+from .models import Surat
 
 
-class TranslationInline(admin.StackedInline):
-    model = Translation
+class AyatshipInline(admin.StackedInline):
+    model = Ayatship
 
 
-@admin.register(Quran)
-class QuranAdmin(admin.ModelAdmin):
-    inlines = (TranslationInline,)
+@admin.register(Surat)
+class SuratAdmin(admin.ModelAdmin):
+    inlines = (AyatshipInline,)
 
 
-@admin.register(TranslationVersion)
-class TranslationVersionAdmin(admin.ModelAdmin):
+@admin.register(Ayatship)
+class AyatshipAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(Ayat)
+class AyatAdmin(admin.ModelAdmin):
     pass

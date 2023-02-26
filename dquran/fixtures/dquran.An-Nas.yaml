@@ -1,36 +1,65 @@
-- model: dquran.quran
-  pk: 1
+- model: dquran.surat
+  pk: 114
+  fields:
+    name: An-Nās
+    opened_with_basmallah: true
+- model: dquran.ayatship
+  pk: 096dc234-685b-454e-b844-e61d7c121a71
   fields:
     surat: 114
-    ayat: 1
+    ayat: cae0f0a8-e02a-46fe-9c67-14013a0e04c4
+    number: 4
+- model: dquran.ayatship
+  pk: 2affa463-ea3a-44db-9017-66aea5005524
+  fields:
+    surat: 114
+    ayat: 031163cb-154c-44d4-aecb-9d63826ecb94
+    number: 1
+- model: dquran.ayatship
+  pk: 632a5ffb-ea9a-44e9-a706-e8c99c37553e
+  fields:
+    surat: 114
+    ayat: 1437789e-c799-4f91-bbc1-f8a3e940fab6
+    number: 5
+- model: dquran.ayatship
+  pk: 64b01516-061d-4237-8ef3-99d2bb06aa6b
+  fields:
+    surat: 114
+    ayat: 03184918-57ae-43dc-80aa-160a6300222a
+    number: 2
+- model: dquran.ayatship
+  pk: 76f388cd-1523-47cb-b1b7-ad1b55c3f287
+  fields:
+    surat: 114
+    ayat: c0ac2619-c5f1-4870-8000-13bdc57b10d9
+    number: 3
+- model: dquran.ayatship
+  pk: c1731c2e-a770-4be7-95c8-7f7ffbd4f529
+  fields:
+    surat: 114
+    ayat: ec42deb3-9b25-4943-a939-9c379a39734c
+    number: 6
+- model: dquran.ayat
+  pk: 031163cb-154c-44d4-aecb-9d63826ecb94
+  fields:
     text: قُلْ اَعُوْذُ بِرَبِّ النَّاسِۙ
-- model: dquran.quran
-  pk: 2
+- model: dquran.ayat
+  pk: 03184918-57ae-43dc-80aa-160a6300222a
   fields:
-    surat: 114
-    ayat: 2
     text: مَلِكِ النَّاسِۙ
-- model: dquran.quran
-  pk: 3
+- model: dquran.ayat
+  pk: 1437789e-c799-4f91-bbc1-f8a3e940fab6
   fields:
-    surat: 114
-    ayat: 3
-    text: اِلٰهِ النَّاسِۙ
-- model: dquran.quran
-  pk: 4
-  fields:
-    surat: 114
-    ayat: 4
-    text: مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ
-- model: dquran.quran
-  pk: 5
-  fields:
-    surat: 114
-    ayat: 5
     text: الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ
-- model: dquran.quran
-  pk: 6
+- model: dquran.ayat
+  pk: c0ac2619-c5f1-4870-8000-13bdc57b10d9
   fields:
-    surat: 114
-    ayat: 6
+    text: اِلٰهِ النَّاسِۙ
+- model: dquran.ayat
+  pk: cae0f0a8-e02a-46fe-9c67-14013a0e04c4
+  fields:
+    text: مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ
+- model: dquran.ayat
+  pk: ec42deb3-9b25-4943-a939-9c379a39734c
+  fields:
     text: مِنَ الْجِنَّةِ وَالنَّاسِ ࣖ

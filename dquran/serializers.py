@@ -1,9 +1,13 @@
 from rest_framework import serializers
 
-from .models import Quran
+from .models import Ayatship
 
 
-class QuranSerializer(serializers.HyperlinkedModelSerializer):
+class AyatshipSerializer(serializers.HyperlinkedModelSerializer):
+    surat_number = serializers.CharField(source="surat.number")
+    surat_name = serializers.CharField(source="surat.name")
+    ayat_text = serializers.CharField(source="ayat.text")
+
     class Meta:
-        model = Quran
-        fields = ["surat", "ayat", "text"]
+        model = Ayatship
+        fields = ("surat_number", "surat_name", "number", "ayat_text")

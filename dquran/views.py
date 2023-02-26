@@ -1,38 +1,46 @@
+from django.shortcuts import get_list_or_404
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 from rest_framework import viewsets
 
-from .models import Quran
-from .models import Translation
-from .serializers import QuranSerializer
+from .models import Ayatship
+from .models import Surat
+from .serializers import AyatshipSerializer
 
 
-def quran_list(request):
-    root = Quran.objects.all()
+def surat_list(request):
+    root = Surat.objects.all()
     context = {
         "root": root,
     }
-    return render(request, "quran/quran_list.html", context)
+    return render(request, "quran/surat_list.html", context)
 
 
-def ayat_view(request, id):
-    ayat = get_object_or_404(Quran, id=id)
-    try:
-        ayat_translation = Translation.objects.get(quran=ayat)
-    except Translation.DoesNotExist:
-        ayat_translation = None
+def ayatship_list(request, surat_number):
+    root = get_list_or_404(Ayatship, surat__number=surat_number)
+    context = {
+        "root": root,
+    }
+    return render(request, "quran/ayatship_list.html", context)
+
+
+def ayat_view(request, surat_number, ayat_number):
+    ayatship = get_object_or_404(
+        Ayatship,
+        surat__number=surat_number,
+        number=ayat_number,
+    )
 
     context = {
-        "ayat": ayat,
-        "ayat_translation": ayat_translation,
+        "ayatship": ayatship,
     }
     return render(request, "quran/ayat_view.html", context)
 
 
-class QuranViewSet(viewsets.ReadOnlyModelViewSet):
+class AyatshipViewSet(viewsets.ReadOnlyModelViewSet):
     """
     API endpoint that allows Qur'an to be viewed.
     """
 
-    queryset = Quran.objects.all()
-    serializer_class = QuranSerializer
+    queryset = Ayatship.objects.all()
+    serializer_class = AyatshipSerializer
