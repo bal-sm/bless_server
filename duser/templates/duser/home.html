@@ -15,7 +15,7 @@
           {% if user.is_authenticated %}
             <div class="d-flex justify-content-start">
               <a class="btn btn-lg mt-5" href="{% url 'logout' %}" role="button">Logout</a>
-              <a class="btn btn-lg mt-5 ms-3" href="{% url 'quran_list' %}" role="button">Selanjutnya</a>
+              <a class="btn btn-lg mt-5 ms-3" href="{% url 'surat_list' %}" role="button">Selanjutnya</a>
             </div>
           {% else %}
             <div class="d-flex justify-content-start">
