@@ -9,6 +9,12 @@
     ayat: cae0f0a8-e02a-46fe-9c67-14013a0e04c4
     number: 4
 - model: dquran.ayatship
+  pk: 0a82f014-1c99-4c46-805d-b6be5f57d663
+  fields:
+    surat: 114
+    ayat: ff4e7cce-6aa4-4875-88e4-bbbea0cb7b8c
+    number: 0
+- model: dquran.ayatship
   pk: 2affa463-ea3a-44db-9017-66aea5005524
   fields:
     surat: 114
@@ -62,3 +68,7 @@
   pk: ec42deb3-9b25-4943-a939-9c379a39734c
   fields:
     text: مِنَ الْجِنَّةِ وَالنَّاسِ ࣖ
+- model: dquran.ayat
+  pk: ff4e7cce-6aa4-4875-88e4-bbbea0cb7b8c
+  fields:
+    text: بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
