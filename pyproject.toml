@@ -22,7 +22,7 @@ xhtml2pdf = "^0.2.9"
 django-treebeard = "^4.6.0"
 psycopg2 = "^2.9.3"
 django-modeltranslation = "^0.18.7"
-django-htmx = "^1.13.0"
+django-htmx = "^1.14.0"
 django-extensions = "^3.2.1"
 django-widget-tweaks = "^1.4.12"
 
