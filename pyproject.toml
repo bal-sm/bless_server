@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bless-server"
-version = "0.7.0"
+version = "0.8.0"
 description = "Server API used for Bless app"
 authors = ["Iqbal Syifa Mahmuda <bal.mahmuda@gmail.com>"]
 readme = "README.md"
