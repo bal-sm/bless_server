@@ -1,47 +1,48 @@
 - model: dquran.surat
-  pk: 114
+  pk: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
   fields:
+    number: 114
     name: An-Nās
 - model: dquran.ayatship
   pk: 096dc234-685b-454e-b844-e61d7c121a71
   fields:
-    surat: 114
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
     ayat: cae0f0a8-e02a-46fe-9c67-14013a0e04c4
     number: 4
 - model: dquran.ayatship
   pk: 0a82f014-1c99-4c46-805d-b6be5f57d663
   fields:
-    surat: 114
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
     ayat: ff4e7cce-6aa4-4875-88e4-bbbea0cb7b8c
     number: 0
 - model: dquran.ayatship
   pk: 2affa463-ea3a-44db-9017-66aea5005524
   fields:
-    surat: 114
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
     ayat: 031163cb-154c-44d4-aecb-9d63826ecb94
     number: 1
 - model: dquran.ayatship
   pk: 632a5ffb-ea9a-44e9-a706-e8c99c37553e
   fields:
-    surat: 114
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
     ayat: 1437789e-c799-4f91-bbc1-f8a3e940fab6
     number: 5
 - model: dquran.ayatship
   pk: 64b01516-061d-4237-8ef3-99d2bb06aa6b
   fields:
-    surat: 114
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
     ayat: 03184918-57ae-43dc-80aa-160a6300222a
     number: 2
 - model: dquran.ayatship
   pk: 76f388cd-1523-47cb-b1b7-ad1b55c3f287
   fields:
-    surat: 114
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
     ayat: c0ac2619-c5f1-4870-8000-13bdc57b10d9
     number: 3
 - model: dquran.ayatship
   pk: c1731c2e-a770-4be7-95c8-7f7ffbd4f529
   fields:
-    surat: 114
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
     ayat: ec42deb3-9b25-4943-a939-9c379a39734c
     number: 6
 - model: dquran.ayat
