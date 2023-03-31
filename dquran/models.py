@@ -4,9 +4,13 @@ from django.db import models
 
 
 class AbstractSurat(models.Model):
-    number = models.PositiveIntegerField(
+    id = models.UUIDField(
         primary_key=True,
+        default=uuid.uuid4,
+        editable=False,
+        verbose_name="ID",
     )
+    number = models.PositiveIntegerField()
     name = models.CharField(
         max_length=1000,
     )
