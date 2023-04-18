@@ -111,10 +111,3 @@ Sorry, if I also did many inconsistencies :(
 
 ### Dear Authors
 Don't forget to add yourself in `AUTHORS` file, if you contributed to this project (and haven't done that yet)
-
-### Discuss with these persons
-For more information:
-
-[CallMeKevin](callmekevinbusiness@gmail.com)
-
-[Django Forum](https://forum.djangoproject.com/t/lets-contribute-to-my-quran-server-project/18086)
