@@ -1,0 +1,136 @@
+- model: dquran.surat
+  pk: 7106d98e-05be-4c94-ade2-454891868698
+  fields:
+    number: 96
+    name: Al-'Alaq
+- model: dquran.surat
+  pk: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
+  fields:
+    number: 114
+    name: An-Nās
+- model: dquran.ayatship
+  pk: 096dc234-685b-454e-b844-e61d7c121a71
+  fields:
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
+    ayat: cae0f0a8-e02a-46fe-9c67-14013a0e04c4
+    number: 4
+- model: dquran.ayatship
+  pk: 0a82f014-1c99-4c46-805d-b6be5f57d663
+  fields:
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
+    ayat: ff4e7cce-6aa4-4875-88e4-bbbea0cb7b8c
+    number: 0
+- model: dquran.ayatship
+  pk: 0d3e3ed8-4e63-4baa-8737-ffdccbd97c77
+  fields:
+    surat: 7106d98e-05be-4c94-ade2-454891868698
+    ayat: eaf4c6ab-ff39-4bca-9698-8a4b16b201e2
+    number: 4
+- model: dquran.ayatship
+  pk: 1764f6a4-a1f5-407b-8222-a1e479c69b3e
+  fields:
+    surat: 7106d98e-05be-4c94-ade2-454891868698
+    ayat: cfaeea0d-f86a-4d1e-a4b8-827248317867
+    number: 5
+- model: dquran.ayatship
+  pk: 2affa463-ea3a-44db-9017-66aea5005524
+  fields:
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
+    ayat: 031163cb-154c-44d4-aecb-9d63826ecb94
+    number: 1
+- model: dquran.ayatship
+  pk: 632a5ffb-ea9a-44e9-a706-e8c99c37553e
+  fields:
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
+    ayat: 1437789e-c799-4f91-bbc1-f8a3e940fab6
+    number: 5
+- model: dquran.ayatship
+  pk: 64b01516-061d-4237-8ef3-99d2bb06aa6b
+  fields:
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
+    ayat: 03184918-57ae-43dc-80aa-160a6300222a
+    number: 2
+- model: dquran.ayatship
+  pk: 6c3149e6-9554-4f95-9940-783aec163f63
+  fields:
+    surat: 7106d98e-05be-4c94-ade2-454891868698
+    ayat: 95fe6435-44bc-4ebc-bbba-4a9cd67e6259
+    number: 1
+- model: dquran.ayatship
+  pk: 76f388cd-1523-47cb-b1b7-ad1b55c3f287
+  fields:
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
+    ayat: c0ac2619-c5f1-4870-8000-13bdc57b10d9
+    number: 3
+- model: dquran.ayatship
+  pk: ab7b870f-870f-4a65-9f63-a2fd4793426c
+  fields:
+    surat: 7106d98e-05be-4c94-ade2-454891868698
+    ayat: ff4e7cce-6aa4-4875-88e4-bbbea0cb7b8c
+    number: 0
+- model: dquran.ayatship
+  pk: c1731c2e-a770-4be7-95c8-7f7ffbd4f529
+  fields:
+    surat: a1ebcf5b-1488-4693-8bf4-6bba8fb9b08e
+    ayat: ec42deb3-9b25-4943-a939-9c379a39734c
+    number: 6
+- model: dquran.ayatship
+  pk: d19e66a2-cf1c-48f3-ae86-424013660ab4
+  fields:
+    surat: 7106d98e-05be-4c94-ade2-454891868698
+    ayat: e2ac6437-1918-452b-aa75-440e196b6be1
+    number: 3
+- model: dquran.ayatship
+  pk: d216a528-a798-4818-9436-1652349e6235
+  fields:
+    surat: 7106d98e-05be-4c94-ade2-454891868698
+    ayat: 273650df-8821-4431-9ec4-cfc7a245a652
+    number: 2
+- model: dquran.ayat
+  pk: 031163cb-154c-44d4-aecb-9d63826ecb94
+  fields:
+    text: قُلْ اَعُوْذُ بِرَبِّ النَّاسِۙ
+- model: dquran.ayat
+  pk: 03184918-57ae-43dc-80aa-160a6300222a
+  fields:
+    text: مَلِكِ النَّاسِۙ
+- model: dquran.ayat
+  pk: 1437789e-c799-4f91-bbc1-f8a3e940fab6
+  fields:
+    text: الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِۙ
+- model: dquran.ayat
+  pk: 273650df-8821-4431-9ec4-cfc7a245a652
+  fields:
+    text: جَلَقَ اﻷِنْسَانَ مِنْ عَلَقٍ
+- model: dquran.ayat
+  pk: 95fe6435-44bc-4ebc-bbba-4a9cd67e6259
+  fields:
+    text: اِقْرَأْبِاسْمِ رَبِّكَ الَّذِيْ خَلَقَ
+- model: dquran.ayat
+  pk: c0ac2619-c5f1-4870-8000-13bdc57b10d9
+  fields:
+    text: اِلٰهِ النَّاسِۙ
+- model: dquran.ayat
+  pk: cae0f0a8-e02a-46fe-9c67-14013a0e04c4
+  fields:
+    text: مِنْ شَرِّ الْوَسْوَاسِ ەۙ الْخَنَّاسِۖ
+- model: dquran.ayat
+  pk: cfaeea0d-f86a-4d1e-a4b8-827248317867
+  fields:
+    text: عَلَّمَ الْاِنْسَانَ مَا لَمْ يَعْلَمْ
+- model: dquran.ayat
+  pk: e2ac6437-1918-452b-aa75-440e196b6be1
+  fields:
+    text: اِقْرَأْ وَرَبُّكَ الْاَكْرَمُ
+- model: dquran.ayat
+  pk: eaf4c6ab-ff39-4bca-9698-8a4b16b201e2
+  fields:
+    text: اَلَّذِيْ عَلَّمَ بِالْقَلَمِ
+- model: dquran.ayat
+  pk: ec42deb3-9b25-4943-a939-9c379a39734c
+  fields:
+    text: مِنَ الْجِنَّةِ وَالنَّاسِ ࣖ
+- model: dquran.ayat
+  pk: ff4e7cce-6aa4-4875-88e4-bbbea0cb7b8c
+  fields:
+    text: بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
