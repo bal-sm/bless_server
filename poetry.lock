@@ -1262,13 +1262,13 @@ files = [
 
 [[package]]
 name = "xhtml2pdf"
-version = "0.2.9"
+version = "0.2.10"
 description = "PDF generator using HTML and CSS"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "xhtml2pdf-0.2.9-py3-none-any.whl", hash = "sha256:fca2bea8f72cda174ed0ea34f2772c5473a1f90dca9eff5d09b86d2b42c327fa"},
+    {file = "xhtml2pdf-0.2.10.tar.gz", hash = "sha256:14edb0b33482fadcc5028c3bbd08bcfce4a1eec5e8b9d1e03d7e0aad0b37971d"},
 ]
 
 [package.dependencies]
@@ -1285,4 +1285,4 @@ svglib = ">=1.2.1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "9d20d1ec3baf8aa67843df00e3369dd3360052f03ad82b30bd1bab55c78d26b5"
+content-hash = "1f02d580f69bcb2f1e41e3e3fe5cb8c8c0ef3848325b206477558d984f882ba2"
