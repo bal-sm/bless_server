@@ -1262,13 +1262,13 @@ files = [
 
 [[package]]
 name = "xhtml2pdf"
-version = "0.2.9"
+version = "0.2.11"
 description = "PDF generator using HTML and CSS"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "xhtml2pdf-0.2.9-py3-none-any.whl", hash = "sha256:fca2bea8f72cda174ed0ea34f2772c5473a1f90dca9eff5d09b86d2b42c327fa"},
+    {file = "xhtml2pdf-0.2.11.tar.gz", hash = "sha256:1b81630a10eba833ddeda16933fd6625471f16b93c352d954f552e5a608e7465"},
 ]
 
 [package.dependencies]
@@ -1279,10 +1279,10 @@ pyHanko = ">=0.12.1"
 pyhanko-certvalidator = ">=0.19.5"
 pypdf = ">=3.1.0"
 python-bidi = ">=0.4.2"
-reportlab = ">=3.5.53"
+reportlab = ">=3.5.53,<4"
 svglib = ">=1.2.1"
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "9d20d1ec3baf8aa67843df00e3369dd3360052f03ad82b30bd1bab55c78d26b5"
+content-hash = "faac9de867ff9a811f3c8f7c83dd5625f619f656de5a329e9c39306befb6bbe6"
