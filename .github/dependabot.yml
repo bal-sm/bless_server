@@ -6,3 +6,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+    groups: # will be modified, if separation of these is very important.
+      all:
+        patterns:
+          - "*"
