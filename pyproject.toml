@@ -14,20 +14,20 @@ exclude = ["dquran/fixtures"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "~4.1.5"
+Django = "~4.2.5"
 djangorestframework = "^3.14.0"
-django-environ = "^0.9.0"
-xhtml2pdf = "^0.2.9"
-django-treebeard = "^4.6.0"
-psycopg2 = "^2.9.3"
-django-modeltranslation = "^0.18.7"
-django-htmx = "^1.14.0"
-django-extensions = "^3.2.1"
-django-widget-tweaks = "^1.4.12"
+django-environ = "^0.11.2"
+xhtml2pdf = "^0.2.11"
+django-treebeard = "^4.7"
+psycopg2 = "^2.9.8"
+django-modeltranslation = "^0.18.11"
+django-htmx = "^1.16.0"
+django-extensions = "^3.2.3"
+django-widget-tweaks = "^1.5.0"
 
 [tool.poetry.group.dev.dependencies]
-pre-commit = "^2.20.0"
-black = "^22.8.0"
+pre-commit = "^3.4.0"
+black = "^23.9.1"
 
 [tool.poetry.scripts]
 bless-server-manage = "manage:main"
